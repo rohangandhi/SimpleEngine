@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{86DFA6DC-D8B5-4692-8A9C-D6FCDE1F3768}</ProjectGuid>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Graphics\Graphics.vcxproj">
+      <Project>{26b6e1e6-29ec-4e8f-9759-d79a6e675832}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Main\Main.vcxproj">
+      <Project>{59ab7d88-52dc-42d1-b98b-39fc41e11f06}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Window\Window.vcxproj">
+      <Project>{2eef3145-5fe0-4ea9-9e63-9b204feadd6c}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(ProjectDir)..\Example.props" />
+  <PropertyGroup />
+</Project>

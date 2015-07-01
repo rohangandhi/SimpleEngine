@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F59C794C-506C-468C-B140-3BBEEC52774F}</ProjectGuid>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="*.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Audio\Audio.vcxproj">
+      <Project>{f12e9996-4466-48a0-b088-85d8f155e41e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Graphics\Graphics.vcxproj">
+      <Project>{26b6e1e6-29ec-4e8f-9759-d79a6e675832}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Main\Main.vcxproj">
+      <Project>{59ab7d88-52dc-42d1-b98b-39fc41e11f06}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(ProjectDir)..\Example.props" />
+  <PropertyGroup />
+</Project>

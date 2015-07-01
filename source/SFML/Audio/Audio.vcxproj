@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F12E9996-4466-48A0-B088-85D8F155E41E}</ProjectGuid>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ClCompile Include="*.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="*.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(ProjectDir)..\System\System.vcxproj">
+      <Project>{2788476a-b460-4f68-8fac-6c64871928ab}</Project>
+    </ProjectReference>
+  </ItemGroup>
+
+  <Import Project="$(ProjectDir)..\SFML.props" />
+
+  <PropertyGroup>
+    <HeaderALDir>$(EngineExternalHeaderDir)AL\</HeaderALDir>
+
+    <IncludePath>$(EngineExternalHeaderDir);$(HeaderALDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+
+  <ItemDefinitionGroup>
+    <Lib>
+      <AdditionalDependencies>flac.lib;ogg.lib;openal32.lib;vorbis.lib;vorbisfile.lib;vorbisenc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <ClCompile>
+      <PreprocessorDefinitions>OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+
+</Project>

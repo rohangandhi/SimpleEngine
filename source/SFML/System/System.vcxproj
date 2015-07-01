@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2788476A-B460-4F68-8FAC-6C64871928AB}</ProjectGuid>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ClCompile Include="*.cpp" />
+    <ClCompile Include="Win32\*.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Win32\*.hpp" />
+  </ItemGroup>
+
+  <Import Project="$(ProjectDir)..\SFML.props" />
+
+  <ItemDefinitionGroup>
+    <Lib>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+
+</Project>

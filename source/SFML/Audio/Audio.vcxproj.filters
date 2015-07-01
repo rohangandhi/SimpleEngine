@@ -1,0 +1,792 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{05dd4742-f698-4a9d-bf65-3408b814d3ed}</UniqueIdentifier>
+      <Extensions>h;hpp;inl</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{cd6be5bb-6fdf-45c7-9404-7ad663a654ac}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+    <ClCompile Include="ALCheck.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AlResource.cpp" />
+    <ClCompile Include="AudioDevice.cpp" />
+    <ClCompile Include="InputSoundFile.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="OutputSoundFile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundBuffer.cpp" />
+    <ClCompile Include="SoundBufferRecorder.cpp" />
+    <ClCompile Include="SoundFileFactory.cpp" />
+    <ClCompile Include="SoundFileReaderFlac.cpp" />
+    <ClCompile Include="SoundFileReaderOgg.cpp" />
+    <ClCompile Include="SoundFileReaderWav.cpp" />
+    <ClCompile Include="SoundFileWriterFlac.cpp" />
+    <ClCompile Include="SoundFileWriterOgg.cpp" />
+    <ClCompile Include="SoundFileWriterWav.cpp" />
+    <ClCompile Include="SoundRecorder.cpp" />
+    <ClCompile Include="SoundSource.cpp" />
+    <ClCompile Include="SoundStream.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\..\..\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="ALCheck.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDevice.hpp" />
+    <ClInclude Include="SoundFileReaderFlac.hpp" />
+    <ClInclude Include="SoundFileReaderOgg.hpp" />
+    <ClInclude Include="SoundFileReaderWav.hpp" />
+    <ClInclude Include="SoundFileWriterFlac.hpp" />
+    <ClInclude Include="SoundFileWriterOgg.hpp" />
+    <ClInclude Include="SoundFileWriterWav.hpp" />
+    <ClInclude Include="ALCheck.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDevice.hpp" />
+    <ClInclude Include="SoundFileReaderFlac.hpp" />
+    <ClInclude Include="SoundFileReaderOgg.hpp" />
+    <ClInclude Include="SoundFileReaderWav.hpp" />
+    <ClInclude Include="SoundFileWriterFlac.hpp" />
+    <ClInclude Include="SoundFileWriterOgg.hpp" />
+    <ClInclude Include="SoundFileWriterWav.hpp" />
+    <ClInclude Include="ALCheck.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDevice.hpp" />
+    <ClInclude Include="SoundFileReaderFlac.hpp" />
+    <ClInclude Include="SoundFileReaderOgg.hpp" />
+    <ClInclude Include="SoundFileReaderWav.hpp" />
+    <ClInclude Include="SoundFileWriterFlac.hpp" />
+    <ClInclude Include="SoundFileWriterOgg.hpp" />
+    <ClInclude Include="SoundFileWriterWav.hpp" />
+    <ClInclude Include="ALCheck.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDevice.hpp" />
+    <ClInclude Include="SoundFileReaderFlac.hpp" />
+    <ClInclude Include="SoundFileReaderOgg.hpp" />
+    <ClInclude Include="SoundFileReaderWav.hpp" />
+    <ClInclude Include="SoundFileWriterFlac.hpp" />
+    <ClInclude Include="SoundFileWriterOgg.hpp" />
+    <ClInclude Include="SoundFileWriterWav.hpp" />
+    <ClInclude Include="ALCheck.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDevice.hpp" />
+    <ClInclude Include="SoundFileReaderFlac.hpp" />
+    <ClInclude Include="SoundFileReaderOgg.hpp" />
+    <ClInclude Include="SoundFileReaderWav.hpp" />
+    <ClInclude Include="SoundFileWriterFlac.hpp" />
+    <ClInclude Include="SoundFileWriterOgg.hpp" />
+    <ClInclude Include="SoundFileWriterWav.hpp" />
+    <ClInclude Include="ALCheck.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDevice.hpp" />
+    <ClInclude Include="SoundFileReaderFlac.hpp" />
+    <ClInclude Include="SoundFileReaderOgg.hpp" />
+    <ClInclude Include="SoundFileReaderWav.hpp" />
+    <ClInclude Include="SoundFileWriterFlac.hpp" />
+    <ClInclude Include="SoundFileWriterOgg.hpp" />
+    <ClInclude Include="SoundFileWriterWav.hpp" />
+    <ClInclude Include="ALCheck.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDevice.hpp" />
+    <ClInclude Include="SoundFileReaderFlac.hpp" />
+    <ClInclude Include="SoundFileReaderOgg.hpp" />
+    <ClInclude Include="SoundFileReaderWav.hpp" />
+    <ClInclude Include="SoundFileWriterFlac.hpp" />
+    <ClInclude Include="SoundFileWriterOgg.hpp" />
+    <ClInclude Include="SoundFileWriterWav.hpp" />
+    <ClInclude Include="ALCheck.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDevice.hpp" />
+    <ClInclude Include="SoundFileReaderFlac.hpp" />
+    <ClInclude Include="SoundFileReaderOgg.hpp" />
+    <ClInclude Include="SoundFileReaderWav.hpp" />
+    <ClInclude Include="SoundFileWriterFlac.hpp" />
+    <ClInclude Include="SoundFileWriterOgg.hpp" />
+    <ClInclude Include="SoundFileWriterWav.hpp" />
+  </ItemGroup>
+</Project>

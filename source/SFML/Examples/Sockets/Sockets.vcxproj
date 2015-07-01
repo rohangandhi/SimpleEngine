@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{56ADF52A-5194-48FA-9C78-99DF31F99272}</ProjectGuid>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="*.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Main\Main.vcxproj">
+      <Project>{59ab7d88-52dc-42d1-b98b-39fc41e11f06}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Network\Network.vcxproj">
+      <Project>{afa8b3cd-ca60-4912-b276-95f79c44ee26}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(ProjectDir)..\Example.props" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <PropertyGroup />
+</Project>

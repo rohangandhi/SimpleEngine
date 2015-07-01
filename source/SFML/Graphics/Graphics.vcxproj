@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{26B6E1E6-29EC-4E8F-9759-D79A6E675832}</ProjectGuid>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ClCompile Include="*.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="*.hpp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="$(ProjectDir)..\System\System.vcxproj">
+      <Project>{2788476a-b460-4f68-8fac-6c64871928ab}</Project>
+    </ProjectReference>
+    <ProjectReference Include="$(ProjectDir)..\Window\Window.vcxproj">
+      <Project>{2eef3145-5fe0-4ea9-9e63-9b204feadd6c}</Project>
+    </ProjectReference>
+  </ItemGroup>
+
+  <Import Project="$(ProjectDir)..\SFML.props" />
+
+  <PropertyGroup>
+    <HeaderStbImageDir>$(EngineExternalHeaderDir)stb_image\</HeaderStbImageDir>
+    <HeaderJpegDir>$(EngineExternalHeaderDir)jpeg\</HeaderJpegDir>
+    <HeaderFreetype2Dir>$(EngineExternalHeaderDir)freetype2\</HeaderFreetype2Dir>
+
+    <IncludePath>$(HeaderStbImageDir);$(HeaderJpegDir);$(HeaderFreetype2Dir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+
+  <ItemDefinitionGroup>
+    <Lib>
+      <AdditionalDependencies>opengl32.lib;freetype.lib;jpeg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+
+</Project>

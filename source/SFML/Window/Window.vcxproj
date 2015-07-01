@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2EEF3145-5FE0-4EA9-9E63-9B204FEADD6C}</ProjectGuid>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="*.cpp" />
+    <ClCompile Include="Win32\*.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="*.hpp" />
+    <ClInclude Include="Win32\*.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(ProjectDir)..\System\System.vcxproj">
+      <Project>{2788476a-b460-4f68-8fac-6c64871928ab}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(ProjectDir)..\SFML.props" />
+  <ItemDefinitionGroup>
+    <Lib>
+      <AdditionalDependencies>gdi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+</Project>

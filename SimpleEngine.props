@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+
+  <!--Import default property sheets-->
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+
+  <PropertyGroup Label="Globals">
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!--This set of properties defines the common directories and variables for each section.-->
+    <!--The section name $(SectionName) should be defined by the props sheet that imports this props sheet. -->
+    <EngineRootDir>$(SolutionDir)</EngineRootDir>
+    <EngineSourceDir>$(EngineRootDir)source\</EngineSourceDir>
+    <EngineIncludeDir>$(EngineRootDir)headers\</EngineIncludeDir>
+    <EngineLibDir>$(EngineRootDir)bin\$(Configuration)\</EngineLibDir>
+    <EngineObjDir>$(EngineRootDir)obj\</EngineObjDir>
+    <EngineExternalDir>$(EngineRootDir)external\</EngineExternalDir>
+    <EngineExternalHeaderDir>$(EngineExternalDir)$(SectionName)\headers\</EngineExternalHeaderDir>
+    <EngineExternalLibDir>$(EngineExternalDir)$(SectionName)\bin\</EngineExternalLibDir>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!--All debug binaries will have a '-d' at the end of the filename-->
+    <ConfigMarker Condition="'$(Configuration)'=='Debug'">-d</ConfigMarker>
+    <ConfigMarker Condition="'$(Configuration)'=='Release'"></ConfigMarker>
+
+    <!--This section sets the common directories referred to by all projects-->
+    <!--Each project or property sheet that imports this property sheet can add to or replace these property values-->
+    <OutDir>$(EngineLibDir)$(SectionName)\</OutDir>
+    <IntDir>$(EngineObjDir)$(SectionName)\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)$(ConfigMarker)</TargetName>
+    <IncludePath>$(EngineIncludeDir);$(EngineSourceDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(EngineLibDir)$(SectionName)\;$(EngineExternalLibDir);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+
+  <!--This property sheet refers OutDir and sets other properties based on it.-->
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+
+  <!--List of project configurations for al projects-->
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+
+  <ItemDefinitionGroup>
+
+    <!--Compiler settings for all projects and all configurations-->
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>
+        WIN32;SFML_STATIC;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)
+      </PreprocessorDefinitions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+
+    <!--Compiler settings for all projects and debug configurations-->
+    <ClCompile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <UseDebugLibraries>true</UseDebugLibraries>
+    </ClCompile>
+
+    <!--Compiler settings for all projects and release configurations-->
+    <ClCompile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <Optimization>MaxSpeed</Optimization>
+      <UseDebugLibraries>false</UseDebugLibraries>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+
+    <!--Settings for Linker for library projects-->
+    <Lib>
+      <LinkTimeCodeGeneration>false</LinkTimeCodeGeneration>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Lib>
+
+    <!--Properties for Linker for Executable projects-->
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+
+  </ItemDefinitionGroup>
+
+</Project>
